@@ -3,7 +3,8 @@
 static BINARYARRAY : [u8; 8] = [128, 64, 32, 16, 8, 4, 2, 1];
 
 struct SDR {
-    composition: [MicroSDR]
+    composition: [MicroSDR],
+    data: [u8]
 }
 
 enum MicroSDR {
